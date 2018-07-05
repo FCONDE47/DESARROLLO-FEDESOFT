@@ -1,0 +1,86 @@
+body{text-align:center;color:BLUE;
+		
+		background-color: white;
+		
+	}
+tr{font size=4 color: BLACK;
+	background-color: white;
+	}
+td{font size=4 color: SALMON}
+
+	}
+	[type="circle"] {color: green}
+	[type="square"] {color: red}
+	[type="disc"] {color: yellow}
+
+	a:link, a:ir al sitio {color: (internal value);
+		text-decoration: underline;
+		cursor: auto;
+	}
+	a:link:focus, a:visited:active {color:(internal value);}
+	a:hover,
+	a:focus,
+	a:active
+	.mitad1 {
+		background-color:Red;
+		color:white;
+		margin-top: 10px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		margin-left: 10px;
+	}
+
+	.animaciones {
+		width: 100px;
+		height: 100px;
+		background: black;
+		position:relative;
+		animation-name: animaciones;
+		animation-duration: 3s;
+		animation-delay: 2s
+	} 
+	@keyframes animaciones {
+		0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+	}
+.city {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+} 
+section p {color:blue;}
+section> p {color:red;}
+h2 + p {color:yellow;}
+section> div h2 + p {color:purple;}
+
+#encabezado {width:1400px;
+height:100px;
+background: salmon;
+color: white;
+position:relative;}
+
+#cuerpo {width:1400px;
+height: 300px;
+background: white;
+color: blue;
+position:relative;}
+
+.cuerpo {width:screen;
+height: 300px;
+background: white;
+color: blue;
+float:left;
+border:1px solid #ccc;}
+
+#pie {width: 1400px;
+height: 100px;
+background: black;
+color: yellow;
+position:relative;}
+
+@media screen (max-width: 450px)and (max-width: 700px)
+{.cuerpo {width: 100%}}
+
